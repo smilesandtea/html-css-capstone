@@ -111,3 +111,107 @@ h1, h2, h3 {
 
 /* About Page Styles */
 /***********************************/
+
+.about {
+    margin: 7em;
+    text-align: center;
+}
+
+.about-heading {
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+.form {
+    margin: 0 auto;
+    width: 30%;
+    text-align: center;
+}
+
+.form h2 {
+    padding: 2em;
+    font-size: 2em;
+}
+
+.form h3 {
+    font-size: 1em;
+    padding: 1em 0;
+}
+
+form {
+    padding-bottom: 2em;
+}
+
+button {
+    background-color: #AB856E;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: bold;
+    padding: 1.2em;
+    margin: 2em;
+}
+
+button:hover {
+    background-color: #775a48;
+}
+
+/***********************************/
+
+
+/* Resource Page Styles */
+/***********************************/
+
+.resources {
+    margin: 7em;
+    text-align: center;
+    line-height: 2em;
+}
+
+.resources h1 {
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+.resources a {
+    text-decoration: none;
+    color: #775a48;
+}
+
+/***********************************/
+
+
+/* Gallery Page Styles */
+/***********************************/
+
+.gallery {
+    margin: 7em 7em 4em 7em;
+    text-align: center;
+    line-height: 2em;
+    text-align: center;
+}
+
+.gallery h1 {
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+.img-gallery {
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.gallery-blurb {
+    /* padding-top: 1.4em; */
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.gallery-blurb p {
+    margin-bottom: 3.5em;
+    line-height: 2em;
+}
