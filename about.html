@@ -6,9 +6,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Obi Wan Kenobi</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Anek+Malayalam&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Source+Sans+Pro&display=swap" rel="stylesheet"></head>
 <body>
-    
+    <!-- Site Header -->
+    <header>
+        <div class="header-flex">
+            <img class="logo" src="img/logo.png" alt="Obi Wan Kenobi Logo">
+
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="resources.html">Resources</a>
+                <a href="gallery.html">Gallery</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Beginning of Main -->
+    <main>
+        <!-- About Section -->
+        <section>
+
+            <h1>About the Series</h1>
+
+            <p>
+                Lucas ipsum dolor sit amet wedge darth sidious wedge luke kenobi chewbacca mustafar mace bothan. Jade tatooine mustafar 
+                ventress luke wicket fett. Ben sith moff padmé moff jade baba skywalker. Kashyyyk gamorrean aayla obi-wan twi'lek ben ackbar
+                antilles. Solo dagobah coruscant wedge. Wampa palpatine gamorrean jabba sith skywalker. Ben coruscant jango wedge moff 
+                dantooine jabba owen maul. Luke sith mon solo dagobah fett. Greedo dantooine darth jawa. Jar darth jinn organa kessel jabba
+                windu. Mothma thrawn maul kessel ackbar.
+            </p>
+
+            <p>
+                Kenobi hutt aayla darth skywalker sebulba solo wedge skywalker. Skywalker kenobi leia moff ventress dagobah hutt secura. 
+                Amidala hutt kessel antilles mandalore ponda hutt. Hutt mon twi'lek windu. Droid moff maul mon qui-gonn ackbar grievous 
+                skywalker. Darth kamino chewbacca kessel darth darth mustafar. Wicket moff dantooine kashyyyk coruscant jade maul solo 
+                skywalker. Moff wedge moff mandalore. R2-d2 watto baba fisto jabba organa c-3po skywalker. Yoda calrissian moff mon 
+                aayla vader sidious palpatine.
+            </p>
+
+        </section>
+
+        <!-- Featured IMG -->
+        <div class="featured-img"></div>
+
+        <!-- Form -->
+        <section>
+            <h2>Your Thoughts on Star Wars</h2>
+
+            <form action="/add-user" method="post">
+                <fieldset>
+
+                    <div>
+                        <label for="firstname">Name</label><br>
+                        <input type="text" name="first_name" id="firstname" placeholder="Darth Maul">
+                    </div>
+                 
+                    <div>
+                        <label for="email">Email</label><br>
+                        <input type="email" name="email_address" id="email">
+                    </div>
+
+                    <div>
+                        <h3>Are You A Star Wars Fan?</h3>
+
+                        <label for="fan">Yes</label>
+                        <input type="checkbox" name="yes" id="fan">
+
+                        <label for="fan">No</label>
+                        <input type="checkbox" name="no" id="fan">
+                    </div>
+
+                    <div>
+                        <h3>Who Is Your Favorite Character &amp; Why?</h3>
+                        <textarea name="fav_character" id="favorite" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit">Submit</button>
+                    </div>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+     <!-- Footer -->
+     <footer>
+        <img src="img/footer-logo.png" alt="Star Wars Logo">
+    </footer>
 </body>
 </html>

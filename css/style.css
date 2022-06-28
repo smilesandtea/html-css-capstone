@@ -1,0 +1,113 @@
+/* Cross Page Styles */
+/***********************************/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer {
+    background: #100F14;
+    text-align: center;
+}
+
+footer img {
+    width: 10%;
+    padding: 3em;
+}
+
+/***********************************/
+
+
+/* Home Page Styles */
+/***********************************/
+
+header {
+    background-image: url(../img/kenobi.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-flex {
+    padding: 1.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 10%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding-right: 2em;
+    font-family: 'Major Mono Display', monospace;
+    font-weight: 700; 
+    font-size: 1.3em;
+    text-shadow: 2px 2px #3D3236;
+}
+
+nav a:hover {
+    color: #3D3236;
+    text-shadow: 2px 2px #fff;
+}
+
+h1, h2, h3 {
+    font-family: 'Major Mono Display', monospace;
+    text-transform: lowercase;
+    /* text-align: center; */
+}
+
+.trailer {
+    text-align: center;
+    margin: 7em;
+}
+
+.trailer h1 {
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+.featured-img {
+    background-image: url(../img/featured-bg.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.characters h1 {
+    font-size: 3em;
+    margin: 2em;
+    text-align: center;
+}
+
+.characters img, .characters p {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.character-info {
+    display: inline-block;
+    padding-bottom: 4em;
+}
+
+.character-info h2, .character-info p {
+    padding-bottom: 1.2em;
+}
+
+/***********************************/
+
+
+/* About Page Styles */
+/***********************************/
