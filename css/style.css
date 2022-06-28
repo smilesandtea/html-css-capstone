@@ -115,6 +115,7 @@ h1, h2, h3 {
 .about {
     margin: 7em;
     text-align: center;
+    line-height: 2em;
 }
 
 .about-heading {
