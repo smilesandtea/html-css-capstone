@@ -35,7 +35,7 @@ header {
     padding: 1.2em;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -215,4 +215,73 @@ button:hover {
 .gallery-blurb p {
     margin-bottom: 3.5em;
     line-height: 2em;
+}
+
+
+/* Media Queries */
+/***********************************/
+
+/* Mobile */
+@media (max-width: 43rem) {
+    header, .featured-img {
+        background-position: right;
+    }
+
+    .header-flex {
+        padding: 1.2em;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        width: 50%;
+        padding-bottom: 1em;
+    }
+
+    nav a {
+        display: block;
+        text-align: center;
+        padding-bottom: 1em;
+        width: 100%;
+    }
+
+    iframe {
+        width: 170px;
+        height: 215px;
+    }
+
+    .trailer {
+        margin: 7em 0;
+    }
+
+    .trailer h1 {
+        font-size: 1.7em;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .characters h1 {
+        margin: 2em 0;
+        font-size: 1.5em;
+    }
+
+    footer img {
+        width: 40%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 62rem) {
+
+}
+
+/* Desktop */
+@media (max-width: 82rem) {
+
 }
