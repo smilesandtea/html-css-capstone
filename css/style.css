@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -28,6 +32,7 @@ footer img {
 header {
     background-image: url(../img/kenobi.jpg);
     background-size: cover;
+    background-position: right;
     height: 100vh;
 }
 
@@ -223,6 +228,7 @@ button:hover {
 
 /* Mobile */
 @media (max-width: 43rem) {
+    /* homepage styles */
     header, .featured-img {
         background-position: right;
     }
@@ -274,11 +280,131 @@ button:hover {
     footer img {
         width: 40%;
     }
+
+    /* about styles */
+    .about {
+        margin: 0.2em;
+    }
+    
+    .about h1 {
+        font-size: 1.5em;
+
+    }
+
+    .about p {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .form {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form h2 {
+        font-size: 1.2em;
+        padding: 1.2em 0;
+        width: 80%;
+    }
+
+
+    /* resources styles */
+    .resources h1 {
+        font-size: 1.7em;
+        line-height: 1.2em;
+    }
+
+
+    /* gallery styles */
+    .img-gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery h1 {
+        line-height: 1.2em;
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 }
 
 /* Tablet */
 @media (max-width: 62rem) {
+    header, .featured-img {
+        background-position: right;
+    }
 
+    .header-flex {
+        padding: 1.2em;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        width: 50%;
+        padding-bottom: 1em;
+    }
+
+    nav a {
+        display: block;
+        font-size: 2em;
+        text-align: center;
+        padding-bottom: 1em;
+        width: 100%;
+    }
+
+    /* iframe {
+        width: 470px;
+        height: 315px;
+    } */
+
+    .trailer {
+        margin: 7em 0;
+    }
+
+    .trailer h1 {
+        font-size: 1.7em;
+    }
+
+    /* about */
+
+    .form {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .form h2 {
+        font-size: 1.2em;
+        padding: 1.2em 0;
+        width: 80%;
+    }
+
+    /* resources styles */
+    .resources h1 {
+        font-size: 1.7em;
+        line-height: 1.2em;
+    }
+
+    /* gallery styles */
+    .img-gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 /* Desktop */
